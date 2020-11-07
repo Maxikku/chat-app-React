@@ -1,0 +1,31 @@
+.login {
+    display: grid;
+    place-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+.signInBtn {
+    background-color: #315ba8;
+    margin-top: 50px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.signInBtn:hover {
+    background-color: #0d2654;
+    transition: .5s;
+}
+.login_container {
+    padding: 100px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px;
+}
