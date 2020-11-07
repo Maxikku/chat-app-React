@@ -22,9 +22,7 @@ function App() {
                   <Route path="/users/:userId">
                     <Chat/>
                   </Route>
-                  <Route path="/">
-                    <Chat/>
-                  </Route>
+                  <Route path="/"/>
                 </Switch>
               </Router>
             </div>
